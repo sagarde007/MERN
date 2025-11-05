@@ -1,0 +1,53 @@
+.container{
+    background-color: aliceblue;
+    height: 400px;
+    display: flex;
+
+    /* flex direction decided the main axix */
+    flex-direction: row;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+
+    /* justify content works arounnd main axix */
+    justify-content: center;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+
+    /* align item works on cross axix */
+    align-items: center;
+    /* align-items: end; */
+
+    flex-wrap: wrap;
+    /* flex-wrap: nowrap; */
+
+    /* gap: 10px; */
+}
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+.first{
+    background-color: red;
+
+    /* flex-basis: 300px; */
+    /* flex-grow: 1; */
+}
+.second{
+    background-color: blue;
+
+    /* flex-shrink: 4; */
+    /* flex-grow: 2; */
+}
+.third{
+    background-color: green;
+    /* flex-grow: 3; */
+
+    align-self: flex-start;
+}
+.fourth{
+    background-color: orange;
+
+}
