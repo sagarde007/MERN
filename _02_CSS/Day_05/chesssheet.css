@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color:black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 800px;
+    width: 800px;
+    display: grid;
+    grid-template-rows: repeat(8,1fr);
+    grid-template-columns: repeat(8,1fr);
+    background-color: aliceblue;
+    border: 5px solid rgb(55, 42, 244);
+
+}
+.white{
+    background-color: white;
+}
+.brown{
+    background-color: brown;
+}
