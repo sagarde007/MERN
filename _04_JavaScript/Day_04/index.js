@@ -152,9 +152,9 @@ do{
 
 // ----> if else condition
 
-let age = 15;
+let Age = 15;
 
-if(age>=18){
+if(Age>=18){
     console.log("Eligible for vote");
 }
 else{
@@ -190,7 +190,7 @@ else{
     // console.log(false || false);
     // console.log(false || true);
 
-    
+
     // (logical And)
     
     
