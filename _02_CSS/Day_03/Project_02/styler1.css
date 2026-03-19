@@ -1,0 +1,39 @@
+.container{
+    height: 200px;
+    width: 300px;
+    background-color: yellow;
+    position: relative;
+}
+.flag{
+    background-color: blueviolet;
+
+}
+.first , .third{
+    height: 80px;
+    width: 80px;
+
+}
+.second, .forth{
+    height: 80px;
+    width: 180px;
+}
+.first{
+    position: absolute;
+    top: 0px;
+
+}
+.third{
+    position: absolute;
+    bottom: 0px;
+}
+.second{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+.forth{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}

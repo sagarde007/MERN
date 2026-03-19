@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <h1>University Registration From</h1>
+      <p>Plese fill out the from below to register</p>
+      <hr />
+      <h2>Personal Details</h2>
+      <label for="name">First Name:</label>
+      <input type="text" name="firstname" id="name" />
+      <br /><br />
+      <label for="lastname">Last Name:</label>
+      <input type="text" name="lastname" id="lastname" />
+      <br /><br />
+      <label for="dob">Date of Birth:</label>
+      <input type="date" name="dob" id="dob" />
+      <br /><br />
+      <label>Gender:</label>
+      <br />
+      <input type="radio" id="male" name="Gender" value="male" />
+      <label for="male">Male</label>
+      <br />
+      <input type="radio" id="female" name="Gender" value="female" />
+      <label for="female">Female</label>
+      <br />
+      <input type="radio" id="other" name="Gender" value="other" />
+      <label for="other">Other</label>
+      <br /><br />
+      <label>Upload your photo:</label>
+      <br />
+      <input type="file" />
+      <br /><br />
+      <hr />
+      <h2>Contact Informationn</h2>
+      <label for="email">Email Address:</label>
+      <input type="email" name="email" id="email" />
+      <br /><br />
+      <label for="phone">Phone Number:</label>
+      <input type="tel" name="phone" id="phone" />
+      <br /><br />
+      <label for="address">Mailing Address:</label>
+      <textarea name="address" id="address"></textarea>
+      <br />
+      <hr />
+      <h2>Academic Informationn</h2>
+      <label for="course">Select your Course:</label>
+      <br />
+      <select name="course" id="course">
+        <option value="CSE">CSE</option>
+        <option value="ECE">ECE</option>
+        <option value="ME">ME</option>
+      </select>
+      <br />
+      <label>Extracurricular Interest:</label>
+      <br />
+      <input type="checkbox" name="activity" id="sports" value="sports" />
+      <label for="sports">Sports</label>
+
+      <br />
+
+      <input type="checkbox" name="activity" id="music" value="music &arts" />
+      <label for="music">Music & Arts</label>
+
+      <br />
+
+      <input type="checkbox" name="activity" id="tech" value="Technology" />
+      <label for="tech">Technology Clubs</label>
+      <br />
+
+      <input
+        type="checkbox"
+        name="activity"
+        id="volunteering"
+        value="volunteering"
+      />
+      <label for="volunteering">Volunteering</label>
+      <br />
+      <hr />
+      <h2>Create your Account</h2>
+      <label for="password">Creat your password:</label>
+      <input type="password" name="password" id="password" />
+      <br /><br />
+      <label for="secuirity">Sequirity Question:</label>
+      <select name="sequiruty Question" id="sequiruty">
+        <option value="What is your pet name ?">What is your pet name ?</option>
+        <option value="What is your best friend name ?">
+          What is your best friend name ?
+        </option>
+        <option value="What is your school name ?">
+          What is your school name ?
+        </option>
+      </select>
+      <br />
+      <label for="ans">Sequirity answer:</label>
+      <input type="text" name="sequirity answer" id="ans" />
+      <br /><br />
+      <input type="checkbox" name="toc" id="toc" value="accepted" />
+      <label for="toe">I agree to the Terms and Condition.</label>
+      <br /><br />
+      <hr />
+      <button>register</button>
+      <button>Clear form</button>
+    </form>
+  </body>
+</html>

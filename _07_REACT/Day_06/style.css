@@ -1,0 +1,30 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#root{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first{
+    background-color: white;
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    border: 5px rgb(120, 120, 180) solid;
+    border-radius: 10px;
+}
+
+button{
+    height: 50px;
+    background-color: rgb(248, 200, 7);
+    font-size: 30px;
+    margin: 10px;
+    border-radius: 5px;
+}
