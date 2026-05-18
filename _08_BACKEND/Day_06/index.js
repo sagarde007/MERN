@@ -14,6 +14,8 @@ app.use("/detail", (req, res) => {
   res.send("i am your detail page");
 });
 
+
+
 app.use("/", (req, res) => {
   res.send("i am your home page");
 });
