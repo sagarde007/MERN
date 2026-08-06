@@ -1,5 +1,5 @@
 {
-  "name": "day_30",
+  "name": "day_28",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,7 +12,6 @@
   "type": "commonjs",
   "dependencies": {
     "@google/genai": "^2.15.0",
-    "dotenv": "^17.4.2",
-    "readline-sync": "^1.4.10"
+    "express": "^5.2.1"
   }
 }

@@ -1,8 +1,9 @@
 const { GoogleGenAI } = require("@google/genai");
 const readlineSync = require("readline-sync");
+require("dotenv").config();
 
 const ai = new GoogleGenAI({
-  apiKey: "AQ.Ab8RN6Jxxr646u71X6CmN3rXtMPiZuJdiPE1uzc5ns2kYJs74g",
+  apiKey: process.env.GEMINI_API_KEY,
 });
 
 const conversationHistory = [];
@@ -25,14 +26,14 @@ async function getWeather(location) {
     if (date.toLowerCase() == "today") {
       // Process today's weather
       const response = await fetch(
-        `https://api.weatherapi.com/v1/current.json?key=75021a0ccf164765bf234936260608&q=${city}`,
+        `https://api.weatherapi.com/v1/current.json?key=${process.env.WEATHER_API_KEY}&q=${city}`,
       );
 
       const data = await response.json();
       weatherinfo.push(data);
     } else {
       const response = await fetch(
-        `https://api.weatherapi.com/v1/future.json?key=75021a0ccf164765bf234936260608&q=${city}&dt=${date}`,
+        `https://api.weatherapi.com/v1/future.json?key=${process.env.WEATHER_API_KEY}&q=${city}&dt=${date}`,
       );
 
       const data = await response.json();
