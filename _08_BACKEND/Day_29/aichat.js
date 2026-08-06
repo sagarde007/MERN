@@ -1,7 +1,7 @@
 const { GoogleGenAI } = require('@google/genai');
 
 const ai = new GoogleGenAI({
-  apiKey: "AQ.Ab8RN6Jxxr646u71X6CmN3rXtMPiZuJdiPE1uzc5ns2kYJs74g",
+  apiKey: process.env.GEMINI_API_KEY,
 });
 
 async function main(msg) {
